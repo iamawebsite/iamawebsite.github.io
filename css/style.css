@@ -1,0 +1,243 @@
+body{
+    background-color:rgb(129, 237, 191);
+}
+a{
+    background-color: lime;
+}
+a:hover{
+    background-color: rgb(173, 255, 173);
+}
+h1{
+    text-align: center;
+    margin-top: 0px;
+}
+.flex-container{
+    display: flex;
+    /*this allows the game panel and text to exist side by side because they are both contained within a box that resizes according to display width, it is important for the game panel to come second in the html so that it is left-aligned*/
+}
+.panels{
+    width: 25%;
+    margin: 30px;
+}
+.game-panel{
+    position: fixed;
+    top: 1%;
+    right: 0%;
+    width:20%;
+    height:75%;
+    padding: 20px;
+    margin: 20px;
+    border: 5px solid rgb(95, 95, 95);
+    background-color: rgb(138, 138, 138);
+    font-family: monospace;
+    overflow: scroll;
+}
+.reflect-panel{
+    position: fixed;
+    top: 1%;
+    right: 0%;
+    width:20%;
+    height:90%;
+    padding: 20px;
+    margin: 20px;
+    color:rgb(129, 237, 191);
+    border: 5px solid rgb(1, 189, 107);
+    background-color: rgb(0, 144, 82);
+    font-family: monospace;
+    overflow: scroll;
+}
+.reflect-image{
+    display: block;
+    /*prevents other things from existing on the same line/plane*/
+    border: 4px solid rgb(1, 189, 107);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 90%;
+}
+.bottomright{
+    position: fixed;
+    top: 85%;
+    right: 0%;
+    width:20%;
+    height:5%;
+    padding: 20px;
+    margin: 20px;
+    border: 5px solid rgb(95, 95, 95);
+    overflow: scroll;
+    text-align: center;
+    background-color: black;
+    color: aqua;
+    font-family: monospace;
+}
+.game-image{
+    display: block;
+    /*prevents other things from existing on the same line/plane*/
+    border: 4px solid darkgray;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 50%;
+}
+.game-button{
+    font-family: monospace;
+    font-size: 90%;
+    background-color:rgb(95, 95, 95);
+    color: white;
+    transition-duration:0.2s;
+}
+.game-button:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+.text-white{
+    color:white;
+    font-family: monospace;
+    width:70%;
+    height:70%;
+    line-height:30px;
+    transition-property:color;
+    transition-duration: .5s;
+}
+.text-black{
+    color:black;
+    font-family: monospace;
+    width:70%;
+    height:70%;
+    line-height:30px;
+    transition-property:color;
+    transition-duration: .5s;
+}
+.text-essay{
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    width:70%;
+    height:70%;
+    line-height:30px;
+    text-indent: 30px;
+    transition-property:color;
+    transition-duration: .5s;
+}
+.text-reflects{
+    color:rgb(0, 0, 0);
+    font-family: 'Courier New';
+    width:70%;
+    height:70%;
+    line-height:30px;
+    text-indent: 30px;
+    transition-property:color;
+    transition-duration: .5s;
+}
+.text-pink{
+    color:pink;
+    font-family: monospace;
+    width:70%;
+    height:70%;
+    line-height:30px;
+    transition-property:color;
+    transition-duration: .5s;
+}
+.text-aqua{
+    color:aquamarine;
+    font-family: monospace;
+    width:70%;
+    height:70%;
+    line-height:30px;
+    transition-property:color;
+    transition-duration: .5s;
+}
+.background-black{
+    transition-property:background-color;
+    transition-duration: .5s;
+    transition-timing-function: ease-in;
+    background-color: black;
+}
+.background-white{
+    transition-property:background-color;
+    transition-duration: .5s;
+    transition-timing-function: ease-in;
+    background-color: white;
+}
+.background-pink{
+    transition-property:background-color;
+    transition-duration: .5s;
+    transition-timing-function: ease-in;
+    background-color: magenta;
+}
+.background-aqua{
+    transition-property:background-color;
+    transition-duration: .5s;
+    transition-timing-function: ease-in;
+    background-color: teal;
+}
+.background-red{
+    transition-property:background-color;
+    transition-duration: .5s;
+    transition-timing-function: ease-in;
+    background-color: magenta;
+}
+.background-yellow{
+    transition-property:background-color;
+    transition-duration: .5s;
+    transition-timing-function: ease-in;
+    background-color: yellow;
+}
+.background-blue{
+    transition-property:background-color;
+    transition-duration: .5s;
+    transition-timing-function: ease-in;
+    background-color: cyan;
+}
+.level25{
+    display: none;
+    font-family: 'Times New Roman';
+    color: black;
+    background-color: white;
+    padding: 20px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 10%;
+    margin-right: 20%;
+}
+.level50{
+    display: none;
+    font-family: 'Times New Roman';
+    color: black;
+    background-color: white;
+    padding: 20px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 10%;
+    margin-right: 20%;
+}
+.level75{
+    display: none;
+    font-family: 'Times New Roman';
+    color: black;
+    background-color: white;
+    padding: 20px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 10%;
+    margin-right: 20%;
+}
+.level100{
+    display: none;
+    font-family: 'Times New Roman';
+    color: black;
+    background-color: white;
+    padding: 20px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 10%;
+    margin-right: 20%;
+}
+.block-quote{
+    margin-left: 20%;
+    margin-right: 20%;
+    display: block;
+    line-height: normal;
+    text-indent: 0%;
+}
