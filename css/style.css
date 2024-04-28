@@ -241,3 +241,6 @@ h1{
     line-height: normal;
     text-indent: 0%;
 }
+.bullet{
+    margin-left: 10%;
+}

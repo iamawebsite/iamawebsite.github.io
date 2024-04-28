@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(56, 56, 56);
+    color: white;
+    font-family: monospace;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+p{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+h2{
+    font-weight: normal;
+    margin-left: 5%;
+    margin-right: 5%
+}
+a{
+    color: white;
+    background-color: rgb(108, 108, 252);
+}
+fieldset{
+    background-color: lightgray;
+    color: black;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: left;
+    font-family: monospace;
+}
+input{
+    margin-left: -7%;
+}
+button{
+    font-family: monospace;
+    background-color: black;
+    color: white;
+    transition-property: background-color;
+    transition-duration: .2s;
+}
+button:hover{
+    background-color: rgb(108, 108, 252);/*rgb(87, 205, 87);*/
+    transition-property: background-color;
+    transition-duration: .2s;
+}
