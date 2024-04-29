@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="addto"> ...prompting a new page of definition explaining what the narratology of the text is now that the whole text has another page of explanation</div>
+    <button onclick="javascript:addTo()">...</button>
+    
+</body>
+<script>
+    function addTo(){
+        area = document.getElementById("addto")
+        text = area.textContent
+        another = " prompting a new page of definition explaining what the narratology of the text is now that the whole text has another page of explanation,"
+        area.textContent = text + another 
+    }
+</script>
+</html>
