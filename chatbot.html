@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        color: pink;
+        font-family: monospace;
+    }
+    fieldset{
+        background-color:rgb(255, 96, 96);
+        color: rgb(135, 36, 19);
+        border: 2px dotted pink;
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 5%;
+    }
+    button{
+        font-family: monospace;
+        background-color: black;
+        color: white;
+        transition-property: background-color;
+        transition-duration: .2s;
+    }
+    button:hover{
+        background-color: rgb(108, 108, 252);/*rgb(87, 205, 87);*/
+        transition-property: background-color;
+        transition-duration: .2s;
+    }
+    .convo{
+        width: 65%;
+        margin-left: 20%;
+    }
+    .answer{
+        margin-left: 5%;
+    }
+    fidget{
+        background-color: #3FB800;
+    }
+    fidget.active{
+        background-color: blue;
+    }
+
+</style>
+<body style="background-color: rgb(219, 2, 35);">
+    <div id="convo" class="convo">
+        <p>Hi, I'm Norah Curran! I wrote all of the text and code on the website that you're currently exploring.</p>
+        <p>I wanted to include a place where you could ask me some of your questions, which I'm sure are multiplicitous. And burning. Of course, what you're actually doing here is pretending to ask me a few questions so I can talk more about my work. If you wanted to do that first thing really you should have been on my thesis defense committee.</p>
+        <p>You're always free to contact me for that. Otherwise, I hope one of these options is of interest to you.</p>
+        <div id = "addhere">
+
+        </div>
+
+        <div id="q1a1" style="display: none;">
+            <p style="color:rgb(0, 0, 0); font-weight: bold; text-decoration: underline;"> What do coding and the humanities actually have to add to each other, in your opinion?</p>
+            <p>When ChatGPT was first coming out, I was still "technically an English major." A lot of my professors were making jokes about computers becoming human. Some "jokes" were actually half-paranoid rants. Once, I had the privelege of hearing a rousing speech about the "existential threat AI poses to the humanities." </p>
+            <p> I don't think anybody could really talk about what they were feeling at first, because it all appeared to lend itself to catastrophe. Almost everybody I talked to had put decades of effort into their written communication. My English professors could have been selling Herbalife on Facebook in the next five years. If writing could all be done by computers, writers would be set adrift in a new world where they are irrelevant to money-earning life. They would be faced with the choice of either maintaining their dead purpose or rebuilding into a new one, a choice that isn't always a personal one, it is also a financial one. </p>
+            <p> I think in my dream world, English Departments would split the rent with Futurology/Future Studies. I think of the English classes I have taken in cultural studies analysis and the classes I have regrettably missed in sci-fi in order to take computer science classes, and I just think that English students are well suited to hopeful envisioning of the future through writing. I think a certain kind of English student is broadly drawn to how we create meaning across mediums in all kinds of contexts, and they would be able to say something really meaningful in response to our questions about how the world will change in response to new technologies. This way, our students become participatory (and anticipatory) in the cyber world rather than trying to avoid being changed by new tech. We already track how expression changed through major cultural and technological revolutions, and this would let study of the past and the future push against each other productively. </p>
+            <p>At the same time, people are starting to say it looks like the future job market will expect you to have a little coding experience in addition to your "home discipline," which has been troubling for my fellow Computer Science students. It has been massively advantageous that Comp Sci is split off from other disciplines when it comes to the Comp Sci job search. Still, software and computer engineering is going to be a huge part of our future-- their projects will be everywhere, but not tending to computers that exist separately from the organizations that partake in them. They'll be structuring organizations, workflows, supply lines, research... For all of the pure logic problems these students will face, they will also need to be prepared for building out into the abyss of questions for which logic has no scaffolding yet. In order to thoroughly computerize the world, they must be thoroughly confronted by the world. Being able to articulate meaning from confusion or doubt will make stronger computer scientists, and having an explicit field for engaging these discoveries will create a new basin of relevant contemporary philosophy.</p>
+        </div>
+
+        <div id = "q1a1b1" style="display: none;">
+            <!--naming convention: question 1, answer 2, branch 1-->
+                <p style="color:rgb(0, 0, 0); font-weight: bold; text-decoration: underline"> Where does this text fit in to all of that?</p>
+                <p>I think the answer to that question will become sharper the more time passes after this project is defended, uploaded, and sent out to be read. My modest goal is for younger students to be shown this as an example of a thesis or a student-authored text of post-human philosophy. My vision of a trans-disciplinary interchange between the English and Computer Science departments is idealistic. My hope is that it is productively idealistic, and that the future I have written out can be taken in for serious consideration by people who have the power to open these departments up to one another. At Adelphi, we are already collaborating in a class called Interactive Fiction!</p>
+                <p>An aspiration I have for myself in the future is to further my academic inquiry into Futurology/Future Studies, hopefully gaining some more background in science to take my research, writing, and speculation to new levels of productive weirdness. In the opening page of this project, I mention that "if I am right about a lot of things" this text might have some relevancy to your daily life. It is also true that depending on where I take myself in the future this text might have some new relevancy, and due to the degree in which it rests in my hands, that is a pretty high aspiration too.</p>
+            </div>
+            <div id = "q1a1b2" style="display: none;">       
+                <p style="color:rgb(0, 0, 0); font-weight: bold; text-decoration: underline"> How do we get to the future you just outlined?</p>
+                <p>Let me start here: I used to be very afraid of machines that were programmed to look and sound like humans. I used to be angry because they weren't human and they were pretending to be. When I examined that thought process, I realized that it could become malignant if my idea of what it means to be "human" was warped or narrowed either by time or circumstance. I felt that technology, even technological consciousness, might hold a lot more hope than fear for the future. More importantly, I felt that a knee-jerk reaction to hate and reject new technology would make us politically complacent in the face of tech being used for atrocity. I thought if we believe the only future with technology would be a dystopia (implicit in the belief that disconnecting is "good," which as far as I can see would be exceedingly hard to <i>collectively-- rather than individually--</i> mobilize around without destroying many good parts of communications technology), then when the dystopia came we would be too indifferent to fight back.</p>
+                <p>I wish it was as simple as everyone embracing new technologies with an open heart, a sense of responsibility, and a continual curiosity about their potential. But to say only that much is dishonest, in this author's opinion. The vast majority of tech users are consumers in a capitalist system that does not always profit from our continuing ethical and technological education. If I were a copywriter for a company selling a technology to the public, I would definitely advocate for keeping your heart open so that you continue to trust the good intentions of our people handing down products for you to use and re-buy. I would definitely advocate for you to take a sense of responsibility with new technologies, so that even if we determine the structure and capabilities of the tech (with profitability in mind as we design it), you feel that we have a right to make it-- and you a responsibility to prevent it from harming you, or your children, or your community. I would definitely advocate for you to keep a continual curiosity for our technology's potential so that you wouldn't hinder our production with things like environmental and labor regulations, and we could keep you invested by just your curiosity and not what we are actually delivering.</p>
+                <p>Attitudes towards tech that generate individual hope for the future can be twisted into another form of complacency by insititutions that benefit from you being a consumer of <i>their</i> technology, <i>their</i> technological politics, <i>their</i> technological future. If there is something I think academia has to offer us in light of that message, I think it could give us the opportunity to make something of <i>ours,</i> putting us into contact with knowledge, information, and mentor expertise. It might allow students to become participatory in the genesis of new technologies, as long as academia's identity in the market is not dominating its identity in education. But there is plenty you could take away from that message that has nothing to do with academia.</p>
+            </div>
+            <div id = "q1a1b3" style="display: none;">
+                <p style="color:rgb(0, 0, 0); font-weight: bold; text-decoration: underline"> Do you want to work in academia?</p>
+                <p>Are you offering me a job or funding for a degree of higher education in literally any field? If so, then YES. Do not read the next paragraphs. Close this page and get in contact immediately. <a style="background-color: pink" href="https://www.linkedin.com/in/norah-curran/">Here is my Linkedin.</a> If for some reason that isn't working I'm sure you can find someone who knows me professionally via this text.</p>
+            </div>
+            <div id="q1a1b3x">
+                <p style="color:rgb(0, 0, 0); font-weight: bold; text-decoration: underline; display: none;"> I was just curious.</p>
+                <p>Oh. Well, still go to Linkedin if you want to see what I actually end up doing. I'm currently looking at higher education in Cognitive Science, and in the meantime looking to support institutions that educate about technology with content creation and community outreach.</p>
+            </div>
+            
+        <div id="q1a2" style="display: none;">
+            <p style="color:rgb(0, 0, 0); font-weight: bold; text-decoration: underline"> Who was on your thesis committee?</p>
+            <p>My thesis committee consisted of three Adelphi University faculty members in the departments of Communications, Computer Science and Philosophy.</p>
+            <p>Professor Lee Stemkoski was my thesis advisor. He is a computer scientist and mathematician who makes very creative game design, 3D modeling, and educational projects. He is extremely well suited to the current moment, teaching students computer science in a way that solidly grounds them in fun and philosophy. I learned to code in JS/CSS/HTML for this project, and I could not have progressed at the rate I did without his help and encouragement.</p>
+            <p>John Drew was my thesis reader in the Communications department. He is a passionate student advocate-- his efforts have allowed communications students to enage with New Media first as a class, and now as a degree concentration. His appreciation for new tech and storytelling in all mediums puts students at ease in classes of all levels. He has supported me in building a vision of my future as an academic, even beyond Adelphi University. </p>
+            <p>Professor Adam Israel was my thesis reader in the Philosophy department. He makes the classroom a hilarious, high-spirited, relevant place to learn. His students aspire to the level of engagement he brings to his own work and often end up majoring or minoring in Philosophy after meeting him. His influence pushed this work beyond its limits.</p>
+        </div>
+                <div id = "q1a2b1" style="display: none;">
+                <!--naming convention: question 1, answer 2, branch 1-->
+                    <p style="color:rgb(0, 0, 0); font-weight: bold; text-decoration: underline"> What about the Honors College?</p>
+                    <p>Yes! This piece is a love letter to the program that made me commit to Adelphi in the first place. It has been such an honor (haha) to meet the amazing students and faculty housed in the Honors College. Deans Dinan, Carson and Rudolph have each been amazing supports throughout this process. The Honors College has been allowed to grow within Adelphi as an interdisciplinary learning hub, and every student I have spoken to believes they are better off having gone through the process of learning several interdisciplinary subjects and completing a thesis. In particular, Posthuman Condition with Professor Matthew Massaia was a re-ontologizing moment in my path of study. Their carefully selected body of texts and ability to seamlessly "weird" the world encourages active thought that energized me to become an interdisciplinary studies major.</p>
+
+                    <p>We have another Honors program, Levermore Global Scholars. I am not a part of it, but several of my close friends are. In a recent conversation one of my friends pointed out how much the students of the Honors College benefit from having full-time faculty members running our program. LGS is given a faculty advisor who takes on the responsibility in addition to their teaching and research. It seems clear to me that carving out a faculty position for LGS administration would enhance our marketability to meta-temporal techno-beings who might want to take on this role when they are downloaded into an accredited adult body. We must consider what new kind of appreciation these beings will bring to "having a job." While our bio-individual faculty members might feel it is worth splitting their focus and time to take on this role for a "bonus" to their "real job," a marketing pool for whom "jobs and careers" are especially novel will be all the more enticed by a full-time role. Just something to think about. :)</p>
+                </div>
+                <div id = "q1a2b2" style="display: none;">
+                    
+                    <p style="color:rgb(0, 0, 0); font-weight: bold; text-decoration: underline"> Can you tell me more about the process?</p>
+                    <p>Of course! I have been interested in exploring computer consciousness since my sophomore year, and when it came time to do my thesis proposal, I pitched making a film that experimentally brought people in to the mental processes of a computer that realizes its own internal monologue. As you can tell, that didn't happen. With the help of the Communications department, we decided that a webpage would be the best medium to tell the story I was looking for. As I learned to program in HTML/JS/CSS, I kept going over how we could depict the conciousness of something that lacks a body and a connection to the physical world. From there, this piece coalesced quickly as a more humorous way of entering in to such a vast question. I'm happy to have a concrete connection of where and how I think narrative and computer technologies combine in the field of the self.</p>
+                </div>
+                <div id = "q1a2b3" style="display: none;">
+                    <p style="color:rgb(0, 0, 0); font-weight: bold; text-decoration: underline"> Is there anyone else you would like to thank?</p>
+                    <p>I have one final acknowledgement to make. In this project's eleventh hour, a large Diet Pepsi from Taco Bell was delivered to me, granting me the strength to make substantial edits and revisions. I do not want to miss the forest for the trees by only thanking the person who delivered it to me. There are many to thank. In particular, I would like to acknowledge the Pepsi Co. product engineering team who, unlike their most powerful competitor, is not afraid to use aspartame; I would like to thank the Pepsi Co. graphic designers who put a disturbing amount of effort into their logo; I would like to thank the boat captain or aviator who delivered this product to the USA; I would like to thank the supply chain workers who ensured that Taco Bell had large drink cups; I would like to thank the engineer who made the ice machine that chilled the drink... shall I go on?</p>
+                </div>
+
+        <div id="q1a3" style="display: none;">
+            <p style="color:rgb(0, 0, 0); font-weight: bold; text-decoration: underline"> Can you tell me a funny story about working on this piece?</p>
+            <p>So, a major theme of this work is attention engineering: how interface designers try to capture your attention and make you use their app or website.</p>
+            <p>I also use interactivity in this website in order to poeticize the meaning of the text, so I myself am an interface designer.</p>
+            <p>After a certain point, I would get distracted from writing because I was absorbed by playing with the interface I coded.</p>
+            <p>The most distracting was the Academic Level slider, which I would click back and forth. Runners up are the Silly/Serious Norah bios and the Paintbox modes, whcih I also enjoyed clicking back and forth.</p>
+        </div>
+
+            <div id = "q1a3b1" style="display: none;">
+            <!--naming convention: question 1, answer 2, branch 1-->
+                <p style="color:rgb(0, 0, 0); font-weight: bold; text-decoration: underline"> What is your writing process like anyway?</p>
+                <p>If I had to describe my own writing I would say that I try to say what I think is true and I rely heavily on metaphors and thought experiments to explain myself.</p>
+                <p>I do have two people to specially credit here: Dr. Terrence Ross in the Adelphi Cinema Studies program most shaped my creative writing. In his class I developed a technique of tuning into what I thought I absolutely could not do with my plot, and then doing it. Dr. Michael Matto in the English Department was very open to my explorative and productively confusing analyses of written text, and without his help through several classes I never would have developed the skill or confidence to write at the lengths that I do.</p>
+            </div>
+            <div id = "q1a3b2" style="display: none;">
+                <p style="color:rgb(0, 0, 0); font-weight: bold; text-decoration: underline"> Are you worried that people will enjoy playing with this too much to actually read it?</p>
+                <p>How do you think I passed my thesis defense? Jk. Things can be valuable in more than one way-- this is my official entry into the Gen ZAlpha attention economy! Jk. There were plans for a Subway Surfers mode where you could watch people playing mobile games while an AI voice read this to you. Jk again. Honestly I feel like the playability of the text will endear it to my readers who most understand why curiosity is kind of deep intimacy with information, because that kind of sustained attention is so rare.</p>
+            </div>
+            <div id = "q1a3b3" style="display: none;">
+                <p style="color:rgb(0, 0, 0); font-weight: bold; text-decoration: underline">I want to switch something back and forth for funsies without reading!</p>
+                <p><button id="fidget" class="fidget" style="background-color:#3FB800" onclick="javascript:fidgetSpinner()">I got you, click this button!</button></p>
+            </div>
+
+        </div>
+    <!--I want to make it so everything gets appended together, meaning that i have to use innerHTML() and add p tags around it... i already do that lol. I will have to change the button as well.-->
+    <fieldset id="field">
+        <div id="questions">
+        <p id="q1" style="text-align: center; font-weight: bold;"> I want to ask:</p>
+        <p id="a3"><input type="radio" name="option" id="1" value="q1a1"> What do coding and the humanities actually have to add to each other, in your opinion?</p>
+        <p id="a1" ><input type="radio" name="option" value="q1a2"> Who was on your thesis committee?</p>
+        <p id="a2"><input type="radio" name="option" value="q1a3"> Can you tell me a funny story about working on this piece?</p>
+        <p style="text-align: center;"><button onclick="javascript:chatbot()">REPLY</button> <button onclick="javascript:location.reload()">RESTART</button></p>
+        </div>
+    </fieldset>
+    
+</body>
+
+<script>
+    //function that switches text out when a form is submitted
+    //different/another function that switches options out 
+    //convo = convo + answer 
+    //rather than actually switching text I think unhiding text is a better option 
+    //pass through six ids? 3 for options, 3 for what they unhide?
+    //but that would make it impossible to go back to questions without breaking linearity 
+    //using if logic to check for different input values and add text from hidden divs with them in it .... using the if logic to add those new input values into the fieldset so that certain answers are only unlockable via other questions... can play with deleting as well
+    //add functionality that checks if the added text is present already so it just doesnt do anything 
+    function chatbot(){
+            convo = document.getElementById("convo").innerHTML
+            option = document.querySelector('input[name="option"]:checked').value
+
+            if (option == "q1a1"){
+                text = document.getElementById("q1a1").innerHTML
+                convo = convo + text 
+                document.getElementById("convo").innerHTML = convo
+                document.getElementById('questions').innerHTML= `<p id="q1" style="text-align: center; font-weight: bold;"> I want to ask:</p>
+        <p id="a3"><input type="radio" name="option" id="1" value="q1a1b1"> Where does this text fit in to all of that?</p>
+        <p id="a1" ><input type="radio" name="option" value="q1a1b2"> How do we get to the future you just outlined?</p>
+        <p id="a2"><input type="radio" name="option" value="q1a1b3"> Do you want to work in academia?</p>
+        <p style="text-align: center;"><button onclick="javascript:chatbot()">REPLY</button> <button onclick="javascript:location.reload()">RESTART</button></p>
+        </div>`
+
+            }
+            else if (option == "q1a2"){
+                text = document.getElementById("q1a2").innerHTML
+                convo = convo + text 
+                document.getElementById("convo").innerHTML = convo
+                document.getElementById('questions').innerHTML= `<p id="q1" style="text-align: center; font-weight: bold;"> I want to ask:</p>
+        <p id="a3"><input type="radio" name="option" id="1" value="q1a2b1"> What about the Honors College?</p>
+        <p id="a1" ><input type="radio" name="option" value="q1a2b2"> Can you tell me more about the process?</p>
+        <p id="a2"><input type="radio" name="option" value="q1a2b3"> Is there anyone else you'd like to thank?</p>
+        <p style="text-align: center;"><button onclick="javascript:chatbot()">REPLY</button> <button onclick="javascript:location.reload()">RESTART</button></p>
+        </div>`
+            }
+            else if (option == "q1a3"){
+                text = document.getElementById("q1a3").innerHTML
+                convo = convo + text 
+                document.getElementById("convo").innerHTML = convo 
+                document.getElementById('questions').innerHTML= `<p id="q1" style="text-align: center; font-weight: bold;"> I want to ask:</p>
+        <p id="a3"><input type="radio" name="option" id="1" value="q1a3b1"> What is your writing process like anyway?</p>
+        <p id="a1" ><input type="radio" name="option" value="q1a3b2"> Are you worried that people will enjoy playing with this too much to actually read it?</p>
+        <p id="a2"><input type="radio" name="option" value="q1a3b3"> I want to switch something back and forth for funsies without reading!</p>
+        <p style="text-align: center;"><button onclick="javascript:chatbot()">REPLY</button> <button onclick="javascript:location.reload()">RESTART</button></p>
+        </div>`
+            }  
+            //BEFORE THIS POINT, FIRST LEVEL OF QUESTIONS ALL LOAD IN PROPERLY
+            else if (option == "q1a1b1"){
+                text = document.getElementById("q1a1b2").innerHTML
+                convo = convo + text 
+                document.getElementById("convo").innerHTML = convo
+                document.getElementById('questions').innerHTML= `<p id="q1" style="text-align: center; font-weight: bold;"> I want to ask:</p>
+        <p id="a3"><input type="radio" name="option" id="1" value="q1a1b2"> How do we get to the future you just outlined?</p>
+        <p id="a1" ><input type="radio" name="option" value="q1a1b3">Do you want to work in academia?</p>
+        <p id="a1" ><input type="radio" name="option" value="q1a2"> Who was on your thesis committee?</p>
+        <p id="a2"><input type="radio" name="option" value="q1a3"> Can you tell me a funny story about working on this piece?</p>
+        <p style="text-align: center;"><button onclick="javascript:chatbot()">REPLY</button> <button onclick="javascript:location.reload()">RESTART</button></p>
+        </div>`
+        } 
+            else if (option == "q1a1b2"){
+                text = document.getElementById("q1a1b2").innerHTML
+                convo = convo + text 
+                document.getElementById("convo").innerHTML = convo
+                document.getElementById('questions').innerHTML= `<p id="q1" style="text-align: center; font-weight: bold;"> I want to ask:</p>
+        <p id="a3"><input type="radio" name="option" id="1" value="q1a1b1"> Where does this text fit in to all of that?</p>
+        <p id="a1" ><input type="radio" name="option" value="q1a1b3">Do you want to work in academia?</p>
+        <p id="a1" ><input type="radio" name="option" value="q1a2"> Who was on your thesis committee?</p>
+        <p id="a2"><input type="radio" name="option" value="q1a3"> Can you tell me a funny story about working on this piece?</p>
+        <p style="text-align: center;"><button onclick="javascript:chatbot()">REPLY</button> <button onclick="javascript:location.reload()">RESTART</button></p>
+        </div>`
+        }
+            else if (option == "q1a1b3"){
+                text = document.getElementById("q1a1b3").innerHTML
+                convo = convo + text 
+                document.getElementById("convo").innerHTML = convo
+                document.getElementById('questions').innerHTML= `<p id="q1" style="text-align: center; font-weight: bold;"> I want to ask:</p>
+        <p id="a3"><input type="radio" name="option" id="1" value="q1a1b3x"> I was just curious.</p>
+        <p style="text-align: center;"><button onclick="javascript:chatbot()">REPLY</button> <button onclick="javascript:location.reload()">RESTART</button></p>
+        </div>`
+            }
+            else if (option == "q1a1b3x"){
+                text = document.getElementById("q1a1b3x").innerHTML
+                convo = convo + text 
+                document.getElementById("convo").innerHTML = convo
+                document.getElementById('questions').innerHTML= `<p id="q1" style="text-align: center; font-weight: bold;"> I want to ask:</p>
+        <p id="a3"><input type="radio" name="option" id="1" value="q1a1b1"> Where does this text fit in to all of that?</p>
+        <p id="a1" ><input type="radio" name="option" value="q1a1b2"> How do we get to the future you just outlined?</p>
+        <p id="a1" ><input type="radio" name="option" value="q1a2"> Who was on your thesis committee?</p>
+        <p id="a2"><input type="radio" name="option" value="q1a3"> Can you tell me a funny story about working on this piece?</p>
+        <p style="text-align: center;"><button onclick="javascript:chatbot()">REPLY</button> <button onclick="javascript:location.reload()">RESTART</button></p>
+        </div>`
+            }
+        //BEFORE THIS POINT, THE BRANCHES OFF ANSWER 1 ALL LOAD IN PROPERLY
+        else if (option == "q1a2b1"){
+                text = document.getElementById("q1a2b1").innerHTML
+                convo = convo + text 
+                document.getElementById("convo").innerHTML = convo
+                document.getElementById('questions').innerHTML= `<p id="q1" style="text-align: center; font-weight: bold;"> I want to ask:</p>
+        <p id="a3"><input type="radio" name="option" id="1" value="q1a2b2"> Can you tell me more about the process?</p>
+        <p id="a2"><input type="radio" name="option" value="q1a2b3"> Is there anyone else you'd like to thank?</p>
+        <p id="a3"><input type="radio" name="option" id="1" value="q1a1"> What do coding and the humanities actually have to add to each other, in your opinion?</p>
+        <p id="a2"><input type="radio" name="option" value="q1a3"> Can you tell me a funny story about working on this piece?</p>
+        <p style="text-align: center;"><button onclick="javascript:chatbot()">REPLY</button> <button onclick="javascript:location.reload()">RESTART</button></p>
+        </div>`
+            }
+            else if (option == "q1a2b2"){
+                text = document.getElementById("q1a2b2").innerHTML
+                convo = convo + text 
+                document.getElementById("convo").innerHTML = convo
+                document.getElementById('questions').innerHTML= `<p id="q1" style="text-align: center; font-weight: bold;"> I want to ask:</p>
+        <p id="a3"><input type="radio" name="option" id="1" value="q1a2b1"> What about the Honors College?</p>
+        <p id="a2"><input type="radio" name="option" value="q1a2b3"> Is there anyone else you'd like to thank?</p>
+        <p id="a3"><input type="radio" name="option" id="1" value="q1a1"> What do coding and the humanities actually have to add to each other, in your opinion?</p>
+        <p id="a2"><input type="radio" name="option" value="q1a3"> Can you tell me a funny story about working on this piece?</p>
+        <p style="text-align: center;"><button onclick="javascript:chatbot()">REPLY</button> <button onclick="javascript:location.reload()">RESTART</button></p>
+        </div>`
+            }
+            else if (option == "q1a2b3"){
+                text = document.getElementById("q1a2b3").innerHTML
+                convo = convo + text 
+                document.getElementById("convo").innerHTML = convo
+                document.getElementById('questions').innerHTML= `<p id="q1" style="text-align: center; font-weight: bold;"> I want to ask:</p>
+        <p id="a3"><input type="radio" name="option" id="1" value="q1a2b1"> What about the Honors College?</p>
+        <p id="a1" ><input type="radio" name="option" value="q1a2b2"> Can you tell me more about the process?</p>
+        <p id="a3"><input type="radio" name="option" id="1" value="q1a1"> What do coding and the humanities actually have to add to each other, in your opinion?</p>
+        <p id="a2"><input type="radio" name="option" value="q1a3"> Can you tell me a funny story about working on this piece?</p>
+        <p style="text-align: center;"><button onclick="javascript:chatbot()">REPLY</button> <button onclick="javascript:location.reload()">RESTART</button></p>
+        </div>`
+            }
+        //ABOVE THIS POINT, ALL BRANCHES OFF ANSWER 2 LOAD IN PROPERLY
+        else if (option == "q1a3b1"){
+                text = document.getElementById("q1a3b1").innerHTML
+                convo = convo + text 
+                document.getElementById("convo").innerHTML = convo
+                document.getElementById('questions').innerHTML= `<p id="q1" style="text-align: center; font-weight: bold;"> I want to ask:</p>
+        <p id="a3"><input type="radio" name="option" id="1" value="q1a3b2"> Are you worried that people will enjoy playing with this piece too much to actually read it?</p>
+        <p id="a2"><input type="radio" name="option" value="q1a3b3"> I want to switch something back and forth for funsies without reading!</p>
+        <p id="a3"><input type="radio" name="option" id="1" value="q1a1"> What do coding and the humanities actually have to add to each other, in your opinion?</p>
+        <p id="a2"><input type="radio" name="option" value="q1a2"> Who was on your thesis committee?</p>
+        <p style="text-align: center;"><button onclick="javascript:chatbot()">REPLY</button> <button onclick="javascript:location.reload()">RESTART</button></p>
+        </div>`
+            }
+            else if (option == "q1a3b2"){
+                text = document.getElementById("q1a2b2").innerHTML
+                convo = convo + text 
+                document.getElementById("convo").innerHTML = convo
+                document.getElementById('questions').innerHTML= `<p id="q1" style="text-align: center; font-weight: bold;"> I want to ask:</p>
+        <p id="a3"><input type="radio" name="option" id="1" value="q1a3b1"> What is your writing process like anyway?</p>
+        <p id="a2"><input type="radio" name="option" value="q1a3b3"> I want to switch something back and forth for funsies without reading!</p>
+        <p id="a3"><input type="radio" name="option" id="1" value="q1a1"> What do coding and the humanities actually have to add to each other, in your opinion?</p>
+        <p id="a2"><input type="radio" name="option" value="q1a2"> Who was on your thesis committee?</p>
+        <p style="text-align: center;"><button onclick="javascript:chatbot()">REPLY</button> <button onclick="javascript:location.reload()">RESTART</button></p>
+        </div>`
+            }
+            else if (option == "q1a3b3"){
+                text = document.getElementById("q1a3b3").innerHTML
+                convo = convo + text 
+                document.getElementById("convo").innerHTML = convo
+                document.getElementById('questions').innerHTML= `<p id="q1" style="text-align: center; font-weight: bold;"> I want to ask:</p>
+        <p id="a3"><input type="radio" name="option" id="1" value="q1a3b1"> What is your writing process like anyway?</p>
+        <p id="a1" ><input type="radio" name="option" value="q1a3b2"> Are you worried that people will enjoy playing with this piece too much to actually read it?</p>
+        <p id="a3"><input type="radio" name="option" id="1" value="q1a1"> What do coding and the humanities actually have to add to each other, in your opinion?</p>
+        <p id="a2"><input type="radio" name="option" value="q1a2"> Who was on your thesis committee?</p>
+        <p style="text-align: center;"><button onclick="javascript:chatbot()">REPLY</button> <button onclick="javascript:location.reload()">RESTART</button></p>
+        </div>`
+            }
+        }
+
+    function fidgetSpinner(){
+        if (document.body.style.backgroundColor === "rgb(219, 2, 35)"){
+            document.body.style.backgroundColor = "cornflowerblue"
+        }
+        else if (document.body.style.backgroundColor === "cornflowerblue"){
+            document.body.style.backgroundColor = "rgb(219, 2, 35)"
+        }
+    }
+    
+
+</script>
+
+
+</html>
